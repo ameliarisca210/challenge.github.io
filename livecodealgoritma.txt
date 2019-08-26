@@ -1,0 +1,9 @@
+- start
+- masukkan nilai mahasiswa
+- ketentuan nilai:
+	-) jika nilai yg diperoleh mahasiswa >= 80 dan <= 100 , maka tampilkan nama mahasiswa dan nilai A
+	-) jika nilai yg diperoleh mahasiswa >= 65 dan <= 79 , maka tampilkan nama mahasiswa dan nilai B
+	-) jika nilai yg diperoleh mahasiswa >= 50 dan <= 64 , maka tampilkan nama mahasiswa dan nilai C
+	-) jika nilai yg diperoleh mahasiswa >= 35 dan <= 49 , maka tampilkan nama mahasiswa dan nilai D
+	-) jika nilai yg diperoleh mahasiswa >= 0 dan <= 34 , maka tampilkan nama mahasiswa dan nilai E
+	-) jika tidak maka tampilkan 'nilai invalid'

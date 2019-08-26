@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LiveCode</title>
+	<script type="text/javascript">
+		//soal livecode no. 1
+
+		var nilai = 35;
+		var namaMahasiswa = "Riska amellya";
+
+		function nilaiMahasiswa(){
+		  if  (nilai >= 80 && nilai <= 100){
+		  return "Nilai yang didapat oleh saudari <b>" + namaMahasiswa + " </b>adalah A." + " Dengan perolehan angka sebesar <b>" + nilai + "</b>"
+		}else if  (nilai >= 65 && nilai <= 79 ){
+		  return "Nilai yang didapat oleh saudari <b>" + namaMahasiswa + "</b> adalah B." + " Dengan perolehan angka sebesar <b>" + nilai + "</b>"
+		}else if  (nilai >= 50 && nilai <= 64 ){
+		  return "Nilai yang didapat oleh saudari <b>" + namaMahasiswa + "</b> adalah C." + " Dengan perolehan angka sebesar <b>" + nilai + "</b>"
+		}else if  (nilai >= 35 && nilai <= 49){
+		  return "Nilai yang didapat oleh saudari <b>" + namaMahasiswa + " </b> adalah D." + " Dengan perolehan angka sebesar " + nilai + "</b>"
+		}else if  (nilai >= 0 && nilai <= 34){
+		  return "Nilai yang didapat oleh saudari " + namaMahasiswa + " adalah E." + " Dengan perolehan angka sebesar " + nilai
+		}else{
+		  return "Nilai Invalid! Please check your 'nilai'"
+		}
+
+		}
+
+		document.write(nilaiMahasiswa())
+	</script>
+</head>
+<body>
+
+</body>
+</html>
